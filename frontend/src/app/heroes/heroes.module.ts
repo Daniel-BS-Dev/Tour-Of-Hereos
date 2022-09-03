@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { PagesComponent } from './pages/pages.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { PagesComponent } from './pages/pages.component';
   ],
   imports: [
     CommonModule,
-    HeroesRoutingModule
+    HeroesRoutingModule,
+    MatToolbarModule
   ]
 })
 export class HeroesModule { }
